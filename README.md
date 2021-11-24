@@ -1,11 +1,11 @@
 # Group-43-Final-Project
 ## Team Information
 
-* Team Name: Group 43
-* Team Members and Contact Information:
-Sloane McCensky, sam523@pitt.edu
-Aaron Escobar, aoe6@pitt.edu
-Kevin Jiang, kej33@pitt.edu
+Team Name: Group 43
+Team Members and Contact Information:
+* Sloane McCensky, sam523@pitt.edu
+* Aaron Escobar, aoe6@pitt.edu
+* Kevin Jiang, kej33@pitt.edu
 
 ## Datasets
 
