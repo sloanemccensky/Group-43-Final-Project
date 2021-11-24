@@ -6,7 +6,7 @@ Team Name: Group 43
 Team Members and Contact Information:
 * Sloane McCensky, sam523@pitt.edu
 * Aaron Escobar, aoe6@pitt.edu
-* Kevin Jiang, kej33@pitt.edu
+* Kevin Jiang, kej66@pitt.edu
 
 ## Datasets
 
