@@ -23,3 +23,6 @@ https://data.wprdc.org/dataset/pbp-fire-arm-seizures
 * This dataset displays the number of firearm seizures reported by the Pittsburgh Bureau of Police from October 19, 2018 until November 1, 2021. It indexes its data based on the number of firearms seized, the types of guns collected, and the neighborhoods and zones within Pittsburgh in which they were seized. 
 
 ## Abstract
+* A TLDR summary of the findings of the project 
+* Answer to "What is the best neighborhood?"
+* Explanation of how we determined that answer (brief summary of metrics)
