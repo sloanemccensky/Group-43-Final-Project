@@ -12,7 +12,7 @@ Team Members and Contact Information:
 
 Sloane's Dataset: 
 https://data.wprdc.org/dataset/arrest-data
-* This dataset includes over 50,000 entries of police arrests from different neighborhoods within Pittsburgh starting from August 23, 2016 until the current day. All entries were reported solely by the Pittsburgh Bureau of Police and reflect any crime that or interaction that ended in arrest, regardless of seriousness. 
+* This dataset includes over 50,000 entries of police arrests from different neighborhoods within Pittsburgh starting from August 23, 2016 until the current day. All entries were reported solely by the Pittsburgh Bureau of Police and reflect any crime or interaction that ended in arrest, regardless of seriousness. 
 
 Aaron's Dataset: 
 https://data.wprdc.org/dataset/fire-incidents-in-city-of-pittsburgh
