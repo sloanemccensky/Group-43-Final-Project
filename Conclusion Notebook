@@ -2,18 +2,12 @@ Introduction:
 
 When our group first came together and brainstormed what exactly we should measure the neighborhoods by in order to select the "best," we all agreed that safety
 is the most important factor for ensuring a high quality of life. From there, we decided to use datasets that all correlated to neighborhood safety. Safety is a
-relatively broad subject, so our datasets pertaining to arrests, firearm seizures, and reported fires all connect back to safety while representing a diverse range of statistics. 
+relatively broad subject, so our datasets pertaining to arrests, firearm seizures, and reported fires all connect while representing varied stastics. 
 
-Metrics: 
-
-The metrics our group used to determine the best neighborhood in Pittsburgh were the number of reported fires, arrests, and firearm seizures. 
-
-
-Presentation Notebook
+Conclusion Notebook
 * Needs: one conclusion paragraph from each team member that summarizes their individual work / findings / reflections on their findings
 * One intro from each team member talking about their motivation and their work's context
 * Code necessary to run your metric / graph
-* Describe your metric and dataset
 * Type / copypaste your answer here and I'll put them all in one Jupyter markdown file
 
 Sloane's Intro / Metric / Conclusion:
@@ -27,13 +21,6 @@ even felt the lingering effects of high neighborhood crime rates within my life 
 I wanted to see which neighborhoods really are the safest based on how many arrests have taken place in each over the last 5 years.
 Thus, I have selected the dataset "Pittsburgh Police Arrest Data" for analysis. I chose this dataset as arrest rates can be a good indicator
 of crime and safety levels within an area.
-
-Dataset:
-
-The dataset I've selected for analysis is "Pittsburgh Police Arrest Data." This dataset represents the number of police arrests within
-different neighborhoods across Pittsburgh starting on August 23, 2016 until the current day. It includes over 50,000 arrest data entries
-provided by the Pittsburgh Bureau of Police. I chose this dataset in particular as arrest rates often correlate to the amount of crime
-committed within an area, and thus they are good indicators of an area's general level of safety.
 
 Code:
 
@@ -52,18 +39,12 @@ mpl.ylabel("Arrests (2016-2021)")
 
 Conclusion:
 
-According to my analysis of arrest rates in each Pittsburgh neighborhood, Troy Hill-Herrs Island came out on top with an arrest rate of 
-262.8 arrests per 100,000 people. I reached this conclusion by first figuring out the numbers of reported arrests from each neighborhood from my
-original dataset. Then, using this data along with another WPRDC dataset detailing the 2015 populations of each neighborhood, I created my own Excel sheet in order
-to find the exact arrest rates of each neighborhood. From there, I concluded that Troy Hill-Herrs Island had the lowest and best arrest rate compared to every other
-neighborhood analyzed. Even being a Pittsburgh native, I have never visited Troy Hill so this conclusion was somewhat surprising. Some other close contenders were Mt. Olvier Neighborhood,
-Central Northside, West End, and South Shore.
+
 
 
 Aaron's Intro / Graph / Conclusion:
 
 Intro:
-
   Growing up in Tijuana, the border city with San Diego, made me realize how important the safety in the neighborhood you live in is extremely important
 I personally chose the fires reported in each neighborhood because that is something that affected me in Tijuana quite a lot. In neighborhoods I grew up
 in, fires were always a big thing. We would always see a lot of fires all around the city, and it even got so bad that a paint factory caught fire, releasing
@@ -84,7 +65,6 @@ plt.title("Fires in Neighborhoods")
 plt.xlabel("Neighborhood")
 plt.ylabel("Number of Fires")
 
-
 Conclusion:
 
   While my data is not complete because the population of each neighborhood is not included in my dataset, I can assume from my analysis
@@ -93,4 +73,23 @@ accurate answer to the question as it had the least amount of fires compared to 
 the amount of fires in each neighborhood and comparing the fires' causes in the neighborhoods with the smallest amount. I also included the bar graph because, although
 the neighborhood names are not legible, the graph displays the overall difference in the amount of fires for all of the neighborhoods.
 
-Kevin's Conclusion:
+Kevin's Intro / Graph / Conclusion:
+
+Intro:
+The dataset I choose was the number of firearms siezed in a neighborhood. Gun violence has been a major issue in the past decade for the US and the dangers that they could
+could present to people is very high. The data set includes entries from guns in possession of something, or an unattended gun left in public, both of which can still cause harm to others.
+Like many, I have personally known people who have been harmed or killed by gun violence and its something that can affect people mentally and physcially.
+According to Amnesty.Org, m ore than 500 people die every day from gun violence, and 44% of all homicides globally involve gun violence. If were able to determine the number of firearms siezed
+by each neighborhood, we can find potentially the safest one based on which one has the lowest number siezed, since that can correlate to less potential gun violence.
+
+Code:
+
+
+
+Conclusion:
+
+Based on the data, Oliver Borough has the least number of firearms siezed. I did not take into account the total population of each neighborhood as this information was not present in my dataset.
+But if we were to only look at the total number of firearms siezed, Oliver Borough is statistically the safest neighborhood in Pittsburgh. 
+The data I was given showed the address, type of gun, and whether or not it was attended or unattended. Because I believe that the any type of gun can be a potentially to people, I did not separate them, but grouped all of them together
+and used that data to find that Oliver Borough had the least number of firearms siezed.
+I included a bar graph to help show the differences between all of the neighborhoods to emphasize the how prevelant guns are in each neighborhood. 
