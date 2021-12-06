@@ -3,6 +3,8 @@ Conclusion Notebook
 * Type / copypaste your answer here and I'll put them all in one Jupyter markdown file
 
 While the data is not complete because we do not have the population in each neighborhood (since it is not included in this dataset), we can assume 
-that the "best" neighborhood is MountOliver Borough. Of course this is not completely accurately since we are still missing a lot of criteria that 
+that the "best" neighborhood is Mount Oliver Borough. Of course this is not completely accurately since we are still missing a lot of criteria that 
 would be extremely useful, such as the information included in the other datasets. However, with the data that we have, Mount Oliver Borough is an
-accurate answer of the question.
+accurate answer of the question. I reached this conclusion by looking at the amount of fires in each neighborhood, and checking what were the causes
+of the fires in the neighborhoods with the least amount. I also included the bar graph because, even though it is not legible at all, the difference
+in the amount of fires can be seen between the top neighborhood and the bottom neighborhood.
