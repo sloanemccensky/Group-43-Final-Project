@@ -1,3 +1,8 @@
 Conclusion Notebook
 * Needs: one conclusion paragraph from each team member that summarizes their individual work / findings / reflections on their findings
 * Type / copypaste your answer here and I'll put them all in one Jupyter markdown file
+
+While the data is not complete because we do not have the population in each neighborhood (since it is not included in this dataset), we can assume 
+that the "best" neighborhood is MountOliver Borough. Of course this is not completely accurately since we are still missing a lot of criteria that 
+would be extremely useful, such as the information included in the other datasets. However, with the data that we have, Mount Oliver Borough is an
+accurate answer of the question.
