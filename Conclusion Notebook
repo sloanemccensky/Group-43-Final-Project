@@ -82,13 +82,39 @@ Like many, I have personally known people who have been harmed or killed by gun 
 According to Amnesty.Org, m ore than 500 people die every day from gun violence, and 44% of all homicides globally involve gun violence. If were able to determine the number of firearms siezed
 by each neighborhood, we can find potentially the safest one based on which one has the lowest number siezed, since that can correlate to less potential gun violence.
 
-Code:
+Code: 
 
+All neighborhoods 
+
+firearms = pd.read_csv(r'dataset.csv')
+
+data = firearms["neighborhood"].value_counts()
+# data.plot(kind = "bar", ylim = [0, 250])
+# data.head(10).plot(kind = "bar", ylim = [0, 250])
+# plt.show()
+# data.tail(10).plot(kind = "bar", ylim = [0, 250])
+plt.title("Firearms siezed in neighborhood")
+plt.xlabel("Neighborhoods")
+plt.ylabel("Number of Firearm")
+plt.show()
+
+Lowest 10
+
+firearms = pd.read_csv(r'dataset.csv')
+
+data = firearms["neighborhood"].value_counts()
+data.plot(kind = "bar", ylim = [0, 250])
+data.head(10).plot(kind = "bar", ylim = [0, 250])
+data.tail(10).plot(kind = "bar", ylim = [0, 5])
+plt.title("Firearms siezed in neighborhood")
+plt.xlabel("Neighborhoods")
+plt.ylabel("Number of Firearm")
+plt.show()
 
 
 Conclusion:
 
-Based on the data, Oliver Borough has the least number of firearms siezed. I did not take into account the total population of each neighborhood as this information was not present in my dataset.
+Based on the data, Oliver Borough has the least number of firearms siezed. I did not take into account the total population of each neighborhood as this information was not present in my dataset. 
 But if we were to only look at the total number of firearms siezed, Oliver Borough is statistically the safest neighborhood in Pittsburgh. 
 The data I was given showed the address, type of gun, and whether or not it was attended or unattended. Because I believe that the any type of gun can be a potentially to people, I did not separate them, but grouped all of them together
 and used that data to find that Oliver Borough had the least number of firearms siezed.
