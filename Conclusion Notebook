@@ -1,12 +1,21 @@
-When our group first came together and brainstormed what exactly we should measure the neighborhoods by in order to select the "best," we all agreed that safety is the most important factor for ensuring one's quality of life in a neighborhood. From there, we decided to use datasets that correlated to neighborhood safety in some way. 
+When our group first came together and brainstormed what exactly we should measure the neighborhoods by in order to select the "best," we all agreed that safety
+is the most important factor for ensuring a high quality of life. From there, we decided to use datasets that all correlated to neighborhood safety in an
+apparent way. Safety is a relatively broad subject, so our datasets pertaining to arrests, firearm seizures, and reported fires all fit well into this category. 
 
 Conclusion Notebook
 * Needs: one conclusion paragraph from each team member that summarizes their individual work / findings / reflections on their findings
 * Type / copypaste your answer here and I'll put them all in one Jupyter markdown file
 
-While the data is not complete because we do not have the population in each neighborhood (since it is not included in this dataset), we can assume 
-that the "best" neighborhood is Mount Oliver Borough. Of course this is not completely accurately since we are still missing a lot of criteria that 
-would be extremely useful, such as the information included in the other datasets. However, with the data that we have, Mount Oliver Borough is an
-accurate answer of the question. I reached this conclusion by looking at the amount of fires in each neighborhood, and checking what were the causes
-of the fires in the neighborhoods with the least amount. I also included the bar graph because, even though it is not legible at all, the difference
-in the amount of fires can be seen between the top neighborhood and the bottom neighborhood.
+Sloane's Conclusion:
+
+
+
+Aaron's Conclusion:
+
+  While my data is not complete because the population of each neighborhood is not included in my dataset, I can assume from my analysis
+that the "best" neighborhood in terms of fire occurrences is Mount Oliver Borough. With the data that was available from my dataset, Mount Oliver Borough is an
+accurate answer to the question as it had the least amount of fires compared to every other neighborhood in the Pittsburgh area. I reached this conclusion by finding
+the amount of fires in each neighborhood and comparing the fires' causes in the neighborhoods with the smallest amount. I also included the bar graph because, although
+the neighborhood names are not legible, the graph displays the overall difference in the amount of fires for all of the neighborhoods.
+
+Kevin's Conclusion:
