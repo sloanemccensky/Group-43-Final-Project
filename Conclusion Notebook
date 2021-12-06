@@ -1,16 +1,50 @@
+Introduction:
+
 When our group first came together and brainstormed what exactly we should measure the neighborhoods by in order to select the "best," we all agreed that safety
-is the most important factor for ensuring a high quality of life. From there, we decided to use datasets that all correlated to neighborhood safety in an
-apparent way. Safety is a relatively broad subject, so our datasets pertaining to arrests, firearm seizures, and reported fires all fit well into this category. 
+is the most important factor for ensuring a high quality of life. From there, we decided to use datasets that all correlated to neighborhood safety. Safety is a
+relatively broad subject, so our datasets pertaining to arrests, firearm seizures, and reported fires all connect while representing varied stastics. 
 
 Conclusion Notebook
 * Needs: one conclusion paragraph from each team member that summarizes their individual work / findings / reflections on their findings
+* One intro from each team member talking about their motivation and their work's context
+* Code necessary to run your metric / graph
 * Type / copypaste your answer here and I'll put them all in one Jupyter markdown file
 
-Sloane's Conclusion:
+Sloane's Intro / Metric / Conclusion:
+
+Intro:
+
+In my opinion, safety is one of the most important factors in deciding the worth and quality of an area or neighborhood.
+Having lived in around ten Pittsburgh neighborhoods throughout my life, I've lived in and around both "bad" and "good" areas.
+I've heard countless stories about certain neighborhoods within Pittsburgh, been told what parts of town to avoid, and have
+even felt the lingering effects of high neighborhood crime rates within my life personally. Keeping these experiences in mind,
+I wanted to see which neighborhoods really are the safest based on how many arrests have taken place in each over the last 5 years.
+Thus, I have selected the dataset "Pittsburgh Police Arrest Data" for analysis. I chose this dataset as arrest rates can be a good indicator
+of crime and safety levels within an area.
+
+Code:
+
+import csv
+import pandas as pd
+import numpy as np
+%matplotlib inline
+import matplotlib.pyplot as mpl
+
+crimedata = pd.read_csv("https://data.wprdc.org/datastore/dump/e03a89dd-134a-4ee8-a2bd-62c40aeebc6f")
+vc = crimedata['INCIDENTNEIGHBORHOOD'].value_counts() 
+vc.tail(10).plot(kind="bar", ylim=[0,45])
+mpl.title("Neighborhoods with Lowest Amt. of Arrests")
+mpl.xlabel("Neighborhoods")
+mpl.ylabel("Arrests (2016-2021)")
+
+Conclusion:
 
 
 
-Aaron's Conclusion:
+
+Aaron's Intro / Graph / Conclusion:
+
+Conclusion:
 
   While my data is not complete because the population of each neighborhood is not included in my dataset, I can assume from my analysis
 that the "best" neighborhood in terms of fire occurrences is Mount Oliver Borough. With the data that was available from my dataset, Mount Oliver Borough is an
