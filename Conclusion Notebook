@@ -2,12 +2,18 @@ Introduction:
 
 When our group first came together and brainstormed what exactly we should measure the neighborhoods by in order to select the "best," we all agreed that safety
 is the most important factor for ensuring a high quality of life. From there, we decided to use datasets that all correlated to neighborhood safety. Safety is a
-relatively broad subject, so our datasets pertaining to arrests, firearm seizures, and reported fires all connect while representing varied stastics. 
+relatively broad subject, so our datasets pertaining to arrests, firearm seizures, and reported fires all connect back to safety while representing a diverse range of statistics. 
 
-Conclusion Notebook
+Metrics: 
+
+The metrics our group used to determine the best neighborhood in Pittsburgh were the number of reported fires, arrests, and firearm seizures. 
+
+
+Presentation Notebook
 * Needs: one conclusion paragraph from each team member that summarizes their individual work / findings / reflections on their findings
 * One intro from each team member talking about their motivation and their work's context
 * Code necessary to run your metric / graph
+* Describe your metric and dataset
 * Type / copypaste your answer here and I'll put them all in one Jupyter markdown file
 
 Sloane's Intro / Metric / Conclusion:
@@ -21,6 +27,13 @@ even felt the lingering effects of high neighborhood crime rates within my life 
 I wanted to see which neighborhoods really are the safest based on how many arrests have taken place in each over the last 5 years.
 Thus, I have selected the dataset "Pittsburgh Police Arrest Data" for analysis. I chose this dataset as arrest rates can be a good indicator
 of crime and safety levels within an area.
+
+Dataset:
+
+The dataset I've selected for analysis is "Pittsburgh Police Arrest Data." This dataset represents the number of police arrests within
+different neighborhoods across Pittsburgh starting on August 23, 2016 until the current day. It includes over 50,000 arrest data entries
+provided by the Pittsburgh Bureau of Police. I chose this dataset in particular as arrest rates often correlate to the amount of crime
+committed within an area, and thus they are good indicators of an area's general level of safety.
 
 Code:
 
@@ -39,10 +52,38 @@ mpl.ylabel("Arrests (2016-2021)")
 
 Conclusion:
 
-According to my analysis of arrest rates in each Pittsburgh neighborhood, Troy Hill-Herrs Island came out on top with an arrest rate of 262.8 arrests per 100,000 people. I reached this conclusion by 
+According to my analysis of arrest rates in each Pittsburgh neighborhood, Troy Hill-Herrs Island came out on top with an arrest rate of 
+262.8 arrests per 100,000 people. I reached this conclusion by first figuring out the numbers of reported arrests from each neighborhood from my
+original dataset. Then, using this data along with another WPRDC dataset detailing the 2015 populations of each neighborhood, I created my own Excel sheet in order
+to find the exact arrest rates of each neighborhood. From there, I concluded that Troy Hill-Herrs Island had the lowest and best arrest rate compared to every other
+neighborhood analyzed. Even being a Pittsburgh native, I have never visited Troy Hill so this conclusion was somewhat surprising. Some other close contenders were Mt. Olvier Neighborhood,
+Central Northside, West End, and South Shore.
 
 
 Aaron's Intro / Graph / Conclusion:
+
+Intro:
+
+  Growing up in Tijuana, the border city with San Diego, made me realize how important the safety in the neighborhood you live in is extremely important
+I personally chose the fires reported in each neighborhood because that is something that affected me in Tijuana quite a lot. In neighborhoods I grew up
+in, fires were always a big thing. We would always see a lot of fires all around the city, and it even got so bad that a paint factory caught fire, releasing
+a bunch of chemicals into the area, and some of my friends being hospitalized by it. Not only that, but also as someone who saw the California wildfires as 
+something "close" to me, that's why I thought that fires in each neighborhoods would be an important stadistic.
+
+Code:
+
+import pandas as pd
+import numpy as np
+%matplotlib inline
+import matplotlib.pyplot as plt
+fire = pd.read_csv(r'fire_incidents.csv')
+
+data = fire["neighborhood"].value_counts()
+data.tail(10).plot(kind = "bar", ylim = [0, 25])
+plt.title("Fires in Neighborhoods")
+plt.xlabel("Neighborhood")
+plt.ylabel("Number of Fires")
+
 
 Conclusion:
 
