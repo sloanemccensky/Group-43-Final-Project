@@ -44,6 +44,27 @@ Conclusion:
 
 Aaron's Intro / Graph / Conclusion:
 
+Intro:
+  Growing up in Tijuana, the border city with San Diego, made me realize how important the safety in the neighborhood you live in is extremely important
+I personally chose the fires reported in each neighborhood because that is something that affected me in Tijuana quite a lot. In neighborhoods I grew up
+in, fires were always a big thing. We would always see a lot of fires all around the city, and it even got so bad that a paint factory caught fire, releasing
+a bunch of chemicals into the area, and some of my friends being hospitalized by it. Not only that, but also as someone who saw the California wildfires as 
+something "close" to me, that's why I thought that fires in each neighborhoods would be an important stadistic.
+
+Code:
+
+import pandas as pd
+import numpy as np
+%matplotlib inline
+import matplotlib.pyplot as plt
+fire = pd.read_csv(r'fire_incidents.csv')
+
+data = fire["neighborhood"].value_counts()
+data.tail(10).plot(kind = "bar", ylim = [0, 25])
+plt.title("Fires in Neighborhoods")
+plt.xlabel("Neighborhood")
+plt.ylabel("Number of Fires")
+
 Conclusion:
 
   While my data is not complete because the population of each neighborhood is not included in my dataset, I can assume from my analysis
