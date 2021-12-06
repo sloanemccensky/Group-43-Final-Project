@@ -23,6 +23,9 @@ https://data.wprdc.org/dataset/pbp-fire-arm-seizures
 * This dataset displays the number of firearm seizures reported by the Pittsburgh Bureau of Police from October 19, 2018 until November 1, 2021. It indexes its data based on the number of firearms seized, the types of guns collected, and the neighborhoods and zones within Pittsburgh in which they were seized. 
 
 ## Abstract
-* A TLDR summary of the findings of the project 
-* Answer to "What is the best neighborhood?"
-* Explanation of how we determined that answer (brief summary of metrics)
+
+For this project, our team agreed that safety was the most important aspect in deciding which neighborhood to live or settle down in. As a result, we decided to analyze the quality of Pittsburgh neighborhoods based on varying measurements of safety, including the amount of fires within an area, neighborhood arrest rates, and firearm seizures.
+
+Overall, our team found that Mt. Oliver Neighborhood is the best neighborhood in Pittsburgh based on overall safety as it was the only neighborhood to score in the top five of each of our dataset analyses. Mt. Oliver had the second lowest arrest rate based on population (332.8 per 100,000), tied for third for least number of fires (10), and tied for first place for least amount of firearms seized (3).
+
+We determined this answer by finding the neighborhoods with the lowest arrest rates, number of fires, and number of firearm seizures. We then compared our top five neighborhoods in each category and selected the one that ranked the best overall according to our analysis.
